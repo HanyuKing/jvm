@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.why</groupId>
+    <artifactId>learn-jvm</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.45</version>
+        </dependency>
+
+
+    </dependencies>
+<!--<profiles>
+
+    <profile>
+
+        <id>sonar</id>
+
+        <activation>
+
+            <activeByDefault>true</activeByDefault>
+
+        </activation>
+
+        <properties>
+
+            <sonar.jdbc.url><![CDATA[jdbc:mysql://127.0.0.1:3306/sonaruseUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false]]></sonar.jdbc.url>
+
+            <sonar.jdbc.driver>com.mysql.jdbc.Driver</sonar.jdbc.driver>
+
+            <sonar.jdbc.username>root</sonar.jdbc.username>
+
+            <sonar.jdbc.password>root</sonar.jdbc.password>
+
+            <sonar.host.url>http://127.0.0.1:9000</sonar.host.url>
+
+        </properties>
+
+    </profile>-->
+<!--</profiles>-->
+</project>
